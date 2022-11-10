@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71331" started-at="2022-11-10T09:43:01 IST" finished-at="2022-11-10T09:44:12 IST">
+    <groups>
+      <group name="orderPlace">
+        <method signature="submitTest.submitOrder(java.util.HashMap)[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="submitOrder" class="newmaven.Tests.submitTest"/>
+      </group> <!-- orderPlace -->
+    </groups>
+    <test name="Default test" duration-ms="71331" started-at="2022-11-10T09:43:01 IST" finished-at="2022-11-10T09:44:12 IST">
+      <class name="newmaven.Tests.submitTest">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="launchWebsite" is-config="true" duration-ms="9527" started-at="2022-11-10T09:43:01 IST" finished-at="2022-11-10T09:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="submitOrder" duration-ms="22478" started-at="2022-11-10T09:43:11 IST" data-provider="getData" finished-at="2022-11-10T09:43:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prodName=ZARA COAT 3, password=Kuldeep@1996, email=kks96.narola@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="closeWebsite" is-config="true" duration-ms="949" started-at="2022-11-10T09:43:33 IST" finished-at="2022-11-10T09:43:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="launchWebsite" is-config="true" duration-ms="6064" started-at="2022-11-10T09:43:34 IST" finished-at="2022-11-10T09:43:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="submitOrder" duration-ms="22393" started-at="2022-11-10T09:43:40 IST" data-provider="getData" finished-at="2022-11-10T09:44:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{prodName=ZARA COAT 3, password=Test@1234, email=rohit@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="closeWebsite" is-config="true" duration-ms="899" started-at="2022-11-10T09:44:02 IST" finished-at="2022-11-10T09:44:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="launchWebsite" is-config="true" duration-ms="6852" started-at="2022-11-10T09:44:03 IST" finished-at="2022-11-10T09:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="ordersHistory()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="ordersHistory" duration-ms="801" started-at="2022-11-10T09:44:10 IST" depends-on-methods="newmaven.Tests.submitTest.submitOrder" finished-at="2022-11-10T09:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersHistory -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:newmaven.Tests.submitTest@1786f9d5]" name="closeWebsite" is-config="true" duration-ms="862" started-at="2022-11-10T09:44:11 IST" finished-at="2022-11-10T09:44:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+      </class> <!-- newmaven.Tests.submitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
