@@ -98,4 +98,5 @@ public class submitTest extends BaseClass {
 //	map1.put("email", "rohit@mailinator.com");
 //	map1.put("password", "Test@1234");
 //	map1.put("prodName", "ZARA COAT 3");
+	// this is a Test format
 }
