@@ -59,5 +59,20 @@ public class errorMessageValidations extends BaseClass {
 		Assert.assertFalse(matchProd);
 
 	}
+	@Test
+	public void productMatchValidation1() throws IOException, InterruptedException {
+
+		String prodName = "ZARA COAT 3";
+		productPage ProductPage = LandingPage.loginApplication("kks96.narola@gmail.com", "Kuldeep@1996");
+
+		List<WebElement> products = ProductPage.getProductList();
+		ProductPage.addProductToCart(prodName);
+		CartPage cartPage = ProductPage.naviagteCartPage();
+
+		cartPage.cartListProducts();
+		Boolean matchProd = cartPage.matchProducts("ZARA COAT");
+		Assert.assertTrue(matchProd);
+
+	}
 
 }
